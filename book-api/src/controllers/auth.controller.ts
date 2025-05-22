@@ -108,8 +108,8 @@ export async function loginUser(req: Request, res: Response) {
 
     res.cookie('accessToken', accessToken, {
       httpOnly: true,
-      secure: isProduction,
-      sameSite: isProduction ? 'none' : 'strict',
+      secure: true,
+      sameSite: 'none',
       maxAge: 60 * 60 * 1000, // 1 hour
     })
 
