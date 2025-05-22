@@ -33,14 +33,16 @@ const allowedOrigins = (process.env.CLIENT_URL || '').split(',')
  * Includes credentials (cookies).
  */
 app.use(cors({
-  origin: (origin, callback) => {
-    if (!origin || allowedOrigins.includes(origin)) {
-      callback(null, true)
-    } else {
-      callback(new Error(`❌ CORS blocked for origin: ${origin}`))
-    }
-  },
-  credentials: true,
+
+  // origin: (origin, callback) => {
+  //   if (!origin || allowedOrigins.includes(origin)) {
+  //     callback(null, true)
+  //   } else {
+  //     callback(new Error(`❌ CORS blocked for origin: ${origin}`))
+  //   }
+  // }
+  origin: "https://book-client-zeta.vercel.app",
+  credentials: true
 }))
 
 // === MIDDLEWARE ===
