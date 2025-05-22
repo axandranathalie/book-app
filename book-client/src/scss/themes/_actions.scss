@@ -1,0 +1,19 @@
+// @themes/_actions.scss
+
+// === IMPORTS ===
+@use '@abstracts/variables/colors' as *;
+
+:root {
+  // === ACTION PRIMARY (light/brand)
+  --color-action-primary: #{$color-rosebud};
+  --color-action-primary-hover: #{$color-watusi};
+  --color-action-primary-focus: #{$color-geraldine};
+
+  // === ACTION SECONDARY (dark/contrast)
+  --color-action-secondary: #{$color-kenyancopper};
+  --color-action-secondary-hover: #{$color-oregon};
+  --color-action-secondary-focus: #{$color-brownbramble};
+
+  // === ACTION DISABLED
+  --color-action-disabled: #{$color-alto};
+}

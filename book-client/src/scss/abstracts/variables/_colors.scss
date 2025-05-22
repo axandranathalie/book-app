@@ -1,0 +1,44 @@
+// @variables/_colors.scss
+// === 🎨 COLOR VARIABLES – NAMED BY SHADE ===
+
+// === TEXT ===
+$color-soapstone: #fffcfa; // Text on dark
+$color-bulgarianrose: #471505; // Text on light
+$color-bulgarianrose-75: hsla(15, 87%, 15%, 0.75); // Placeholder / muted
+$color-mineshaft: #3c3c3c; // Muted text (dark gray)
+$color-mineshaft-85: hsla(0, 0%, 24%, 0.85); // Muted text (dark gray)
+
+// === BACKGROUND ===
+$color-seashellpeach: #fff8f3; // Light background
+$color-soapstone: #fffcfa; // Default surface
+$color-pearlblush: #e6d9ce; // Secondary surface
+$color-mineshaft: #3c3c3c; // Dark background
+
+// === HEADER ===
+$color-millbrook: #5c4033; // Header background
+$color-muesli: #ae8460; // Headernav
+
+// === LOGOTYPE ===
+$color-pomegranate: #f4470f; // Strong logo accent
+$color-soapstone: #fffcfa; // Light logo
+$color-geraldine: #f6a283; // Subtle logo highlight
+
+// === BUTTON – PRIMARY ===
+$color-rosebud: #fab89e; // Primary base
+$color-watusi: #ffdfd1; // Primary hover
+$color-geraldine: #f6a283; // Primary focus
+
+// === BUTTON – SECONDARY ===
+$color-kenyancopper: #792706; // Secondary base
+$color-oregon: #992f00; // Secondary hover
+$color-brownbramble: #5f1f07; // Secondary focus
+
+// === FEEDBACK ===
+$color-summergreen: #8cbfa4; // Valid feedback
+$color-sunglo: #e57373; // Invalid focus
+$color-azaela: #f5cbcb; // Invalid background
+$color-moccaccino: #6c1414; // Invalid text
+$color-forgetmenot: #fff1eb; // Info background
+
+// === DISABLED ===
+$color-alto: #e0e0e0; // Disabled background

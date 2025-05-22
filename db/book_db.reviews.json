@@ -1,0 +1,197 @@
+[{
+  "_id": {
+    "$oid": "681c62eaa5aea9797f596212"
+  },
+  "name": "John Doe",
+  "content": "Great book!",
+  "rating": 5,
+  "created_at": {
+    "$date": "2025-05-08T07:53:14.999Z"
+  },
+  "book": [
+    {
+      "$oid": "681b7a0c0d3c198dae553cad"
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68209922208769af82b057e1"
+  },
+  "name": "alex",
+  "content": "kass",
+  "rating": 3,
+  "created_at": {
+    "$date": "2025-05-11T12:33:38.024Z"
+  },
+  "book": {
+    "$oid": "682076ca38fc6ba7a9b29c19"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6820f1291a1b0e382996dbf7"
+  },
+  "name": "adnan",
+  "content": "skit bok ",
+  "rating": 1,
+  "created_at": {
+    "$date": "2025-05-11T18:49:13.044Z"
+  },
+  "book": {
+    "$oid": "682076ca38fc6ba7a9b29c19"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6820f1541a1b0e382996dc01"
+  },
+  "name": "hej",
+  "content": "då",
+  "rating": 2,
+  "created_at": {
+    "$date": "2025-05-11T18:49:56.348Z"
+  },
+  "book": {
+    "$oid": "682076ca38fc6ba7a9b29c19"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6821b362c885ba48ea773b4f"
+  },
+  "name": "Johansen",
+  "content": "bästa boken ",
+  "rating": 5,
+  "created_at": {
+    "$date": "2025-05-12T08:37:54.142Z"
+  },
+  "book": {
+    "$oid": "682076ca38fc6ba7a9b29c19"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6821b37fc885ba48ea773b57"
+  },
+  "name": "hej ",
+  "content": "jag älskar den ",
+  "rating": 5,
+  "created_at": {
+    "$date": "2025-05-12T08:38:23.368Z"
+  },
+  "book": {
+    "$oid": "682076ca38fc6ba7a9b29c19"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6821b38cc885ba48ea773b5f"
+  },
+  "name": "hej ",
+  "content": "då",
+  "rating": 5,
+  "created_at": {
+    "$date": "2025-05-12T08:38:36.274Z"
+  },
+  "book": {
+    "$oid": "682076ca38fc6ba7a9b29c19"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6822729005859bd1c6287a72"
+  },
+  "name": "alice",
+  "content": "decent",
+  "rating": 3,
+  "created_at": {
+    "$date": "2025-05-12T22:13:36.761Z"
+  },
+  "book": {
+    "$oid": "681b7a880d3c198dae553cb3"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6822f2a920c92fc855af2ba3"
+  },
+  "name": "Johansen",
+  "content": "good",
+  "rating": 5,
+  "created_at": {
+    "$date": "2025-05-13T07:20:09.353Z"
+  },
+  "book": {
+    "$oid": "681b7a880d3c198dae553cb3"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682307654316fcb7e7143ca8"
+  },
+  "name": "Johanna",
+  "content": "bästa jag läst",
+  "rating": 5,
+  "created_at": {
+    "$date": "2025-05-13T08:48:37.752Z"
+  },
+  "book": {
+    "$oid": "681b7a690d3c198dae553cb1"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68230e89df95ecc1ca4a6952"
+  },
+  "name": "Lars",
+  "content": "Bad book",
+  "rating": 2,
+  "created_at": {
+    "$date": "2025-05-13T09:19:05.478Z"
+  },
+  "book": {
+    "$oid": "681b7a0c0d3c198dae553cad"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68230e9bdf95ecc1ca4a695a"
+  },
+  "name": "Alice",
+  "content": "Good book",
+  "rating": 5,
+  "created_at": {
+    "$date": "2025-05-13T09:19:23.312Z"
+  },
+  "book": {
+    "$oid": "681b7a0c0d3c198dae553cad"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682317ddb3c7b33e31cda72a"
+  },
+  "name": "Johansen",
+  "content": "good",
+  "rating": 3,
+  "created_at": {
+    "$date": "2025-05-13T09:58:53.777Z"
+  },
+  "book": {
+    "$oid": "681b79f30d3c198dae553cab"
+  },
+  "__v": 0
+}]

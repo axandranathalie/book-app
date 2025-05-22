@@ -1,0 +1,12 @@
+// @abstracts/variables/_breakpoints.scss
+
+// === Breakpoints ===
+// Define responsive breakpoints in pixels.
+// Used with the `@include mix-media()` mixin.
+
+$breakpoints: (
+  mobile: 390px,
+  tablet: 601px,
+  laptop: 1024px,
+  desktop: 1440px,
+);

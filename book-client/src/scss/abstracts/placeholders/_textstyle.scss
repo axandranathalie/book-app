@@ -1,0 +1,13 @@
+// @abstracts/placeholders/_textstyles.scss
+
+// === IMPORTS ===
+@use '@abstracts/variables' as *;
+
+// === PLACEHOLDERS ===
+/* buttontext */
+%extend button-text {
+  font-family: Lato;
+  font-size: 1.25rem;
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: 0.05rem;
+}

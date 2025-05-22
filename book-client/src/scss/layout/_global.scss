@@ -1,0 +1,47 @@
+// @layout/_global.scss
+
+// === IMPORTS ===
+@use '@abstracts' as *;
+
+html {
+  font-size: var(--font-size-xs);
+
+  @include mix-media(mobile) {
+    font-size: var(--font-size-s);
+  }
+
+  @include mix-media(tablet) {
+    font-size: var(--font-size-m);
+  }
+
+  @include mix-media(laptop) {
+    font-size: var(--font-size-l);
+  }
+}
+
+main {
+  width: 100%;
+  max-width: fn-rem(1440);
+  min-height: 100dvh;
+  height: 100%;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+
+  @include mix-media(mobile) {
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  @include mix-media(tablet) {
+    gap: 1.5rem;
+    padding: 1.5rem;
+  }
+
+  @include mix-media(laptop) {
+    gap: 2rem;
+    padding: 0.2rem;
+  }
+}

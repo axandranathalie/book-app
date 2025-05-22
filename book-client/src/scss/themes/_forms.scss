@@ -1,0 +1,23 @@
+// @themes/_forms.scss
+
+// === IMPORTS ===
+@use '@abstracts/variables/colors' as *;
+
+:root {
+  // === Input field backgrounds & borders
+  --color-input-border-default: #{$color-rosebud};
+  --color-input-border-hover: #{$color-watusi};
+  --color-input-border-focus: #{$color-geraldine};
+  --color-input-bg: #{$color-seashellpeach};
+  --color-input-disabled-bg: #{$color-alto};
+  --color-placeholder-text: #{$color-bulgarianrose-75};
+
+  // === Validation colors
+  --color-feedback-valid-focus: #{$color-summergreen};
+
+  --color-feedback-invalid-focus: #{$color-sunglo};
+  --color-feedback-bg-invalid: #{$color-azaela};
+  --color-feedback-invalid-text: #{$color-moccaccino};
+
+  --color-feedback-bg-info: #{$color-forgetmenot};
+}

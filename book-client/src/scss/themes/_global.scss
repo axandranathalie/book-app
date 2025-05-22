@@ -1,0 +1,38 @@
+// @themes/_global.scss
+
+// === IMPORTS ===
+@use '@abstracts/variables/colors' as *;
+
+:root {
+  // === Base Colors ===
+  --color-black: #{$color-mineshaft};
+  --color-white: #{$color-soapstone};
+
+  // === Text Colors ===
+  --color-text-dark: #{$color-bulgarianrose}; // Main text on light background
+  --color-text-light: #{$color-soapstone}; // Text on dark background
+  --color-text-muted: #{$color-bulgarianrose-75}; // Placeholder or secondary text
+
+  // === Backgrounds ===
+  --color-background: #{$color-seashellpeach}; // Default page background
+  --color-background-darker: #{$color-pearlblush}; // Secondary background
+  --color-surface: #{$color-soapstone}; // Component surfaces
+  --color-surface-dark: #{$color-mineshaft}; // Dark surfaces (e.g. dark mode)
+
+  // === Header ===
+  --color-header-bg: #{$color-millbrook}; // Header background
+  --color-nav-bg: #{$color-muesli}; // Headernav background:
+  --color-header-text: #{$color-soapstone}; // Header text
+
+  // === Nav ===
+  --color-nav-dark: #{$color-millbrook};
+  --color-nav-light: #{$color-soapstone};
+
+  // === Logo & Icons ===
+  --color-logo: #{$color-pomegranate}; // Brand accent
+  --color-logo-light: #{$color-soapstone}; // Light version of logo
+  --color-logo-subtle: #{$color-geraldine}; // Subtle highlight color
+  --color-icons-light: #{$color-soapstone}; // Light icons on dark background
+  --color-ratingstar-filled: #{$color-pomegranate};
+  --color-ratingstar-empty: #{$color-mineshaft-85};
+}

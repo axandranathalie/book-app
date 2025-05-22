@@ -1,0 +1,35 @@
+// @abstracts/variables/_fonts.scss
+
+// === 🎨 SCSS FONT VARIABLES ===
+
+// === Font Families ===
+$font-primary: 'Quicksand', sans-serif;
+$font-secondary: 'Lato', sans-serif;
+
+// === Font Weights ===
+$font-light: 300;
+$font-regular: 400;
+$font-semibold: 600;
+$font-bold: 700;
+
+// === Font Sizes ===
+$font-size-xs: 0.875rem; // 14px
+$font-size-s: 1rem; // 16px
+$font-size-m: 1.125rem; // 18px
+$font-size-l: 1.25rem; // 20px
+
+// === CSS Custom Properties ===
+:root {
+  --font-primary: #{$font-primary};
+  --font-secondary: #{$font-secondary};
+
+  --font-weight-light: #{$font-light};
+  --font-weight-regular: #{$font-regular};
+  --font-weight-semibold: #{$font-semibold};
+  --font-weight-bold: #{$font-bold};
+
+  --font-size-xs: #{$font-size-xs};
+  --font-size-s: #{$font-size-s};
+  --font-size-m: #{$font-size-m};
+  --font-size-l: #{$font-size-l};
+}

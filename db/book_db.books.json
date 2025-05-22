@@ -1,0 +1,202 @@
+[{
+  "_id": {
+    "$oid": "681b79f30d3c198dae553cab"
+  },
+  "title": "The Name of the Wind",
+  "description": "A legendary wizard tells his life story.",
+  "author": "Patrick Rothfuss",
+  "genres": [
+    "Fantasy",
+    "Adventure"
+  ],
+  "image": "/book-covers/the-name-of-the-wind.jpg",
+  "published_year": 2007,
+  "reviews": [
+    {
+      "$oid": "681d1357f2307fd01e6f365d"
+    },
+    {
+      "$oid": "681d1366f2307fd01e6f3664"
+    },
+    {
+      "$oid": "682317ddb3c7b33e31cda72a"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-05-07T15:19:15.175Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-13T09:58:53.783Z"
+  },
+  "__v": 5
+},
+{
+  "_id": {
+    "$oid": "681b7a0c0d3c198dae553cad"
+  },
+  "title": "Where the Wild Things Are",
+  "description": "A boy's imagination takes him on a journey to an island inhabited by wild creatures.",
+  "author": "Maurice Sendak",
+  "genres": [
+    "Children",
+    "Fantasy"
+  ],
+  "image": "/book-covers/where-the-wild-things-are.jpg",
+  "published_year": 1963,
+  "reviews": [
+    {
+      "$oid": "681c639453f5c021ec203a16"
+    },
+    {
+      "$oid": "68230e89df95ecc1ca4a6952"
+    },
+    {
+      "$oid": "68230e9bdf95ecc1ca4a695a"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-05-07T15:19:40.557Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-13T09:19:23.314Z"
+  },
+  "__v": 3
+},
+{
+  "_id": {
+    "$oid": "681b7a3e0d3c198dae553caf"
+  },
+  "title": "Harry Potter and the Philosopher's Stone",
+  "description": "A young boy discovers he's a wizard and begins his first year at Hogwarts.",
+  "author": "J.K. Rowling",
+  "genres": [
+    "Fantasy",
+    "Adventure"
+  ],
+  "image": "/book-covers/harry-potter-philosophers-stone.jpg",
+  "published_year": 1997,
+  "reviews": [],
+  "createdAt": {
+    "$date": "2025-05-07T15:20:30.464Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-07T15:20:30.464Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681b7a690d3c198dae553cb1"
+  },
+  "title": "Brave New World",
+  "description": "A futuristic society shaped by technology, drugs, and social engineering.",
+  "author": "Aldous Huxley",
+  "genres": [
+    "Science Fiction",
+    "Dystopian"
+  ],
+  "image": "/book-covers/brave-new-world.jpg",
+  "published_year": 1932,
+  "reviews": [
+    {
+      "$oid": "681d14edf2307fd01e6f3673"
+    },
+    {
+      "$oid": "681d15f4f2307fd01e6f367a"
+    },
+    {
+      "$oid": "682307654316fcb7e7143ca8"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-05-07T15:21:13.733Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-13T08:48:37.761Z"
+  },
+  "__v": 3
+},
+{
+  "_id": {
+    "$oid": "681b7a880d3c198dae553cb3"
+  },
+  "title": "Pride and Prejudice",
+  "description": "A romantic novel that critiques the British landed gentry at the end of the 18th century.",
+  "author": "Jane Austen",
+  "genres": [
+    "Classic",
+    "Romance"
+  ],
+  "image": "/book-covers/pride-and-prejudice.jpg",
+  "published_year": 1813,
+  "reviews": [
+    {
+      "$oid": "681dab4af2307fd01e6f368e"
+    },
+    {
+      "$oid": "6822729005859bd1c6287a72"
+    },
+    {
+      "$oid": "6822729a05859bd1c6287a7a"
+    },
+    {
+      "$oid": "6822f2a920c92fc855af2ba3"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-05-07T15:21:44.297Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-13T07:20:09.360Z"
+  },
+  "__v": 4
+},
+{
+  "_id": {
+    "$oid": "682076ca38fc6ba7a9b29c19"
+  },
+  "title": "All the Light We Cannot See",
+  "description": "Marie-Laure lives in Paris near the Museum of Natural History, where her father works. When she is twelve, the Nazis occupy Paris and father and daughter flee to the walled citadel of Saint-Malo, where Marie-Laure’s reclusive great uncle lives in a tall house by the sea. With them they carry what might be the museum’s most valuable and dangerous jewel.  ",
+  "author": "Anthony Doerr",
+  "genres": [
+    "Historical Fiction"
+  ],
+  "image": "https://m.media-amazon.com/images/I/81Jk-jl3JfL._SL1500_.jpg",
+  "published_year": 2014,
+  "reviews": [
+    {
+      "$oid": "68209922208769af82b057e1"
+    },
+    {
+      "$oid": "6820f1291a1b0e382996dbf7"
+    },
+    {
+      "$oid": "6820f1541a1b0e382996dc01"
+    },
+    {
+      "$oid": "68218ebff92500f1ced3371d"
+    },
+    {
+      "$oid": "6821b362c885ba48ea773b4f"
+    },
+    {
+      "$oid": "6821b37fc885ba48ea773b57"
+    },
+    {
+      "$oid": "6821b38cc885ba48ea773b5f"
+    },
+    {
+      "$oid": "6821b397c885ba48ea773b67"
+    },
+    {
+      "$oid": "6821b3a1c885ba48ea773b6f"
+    },
+    {
+      "$oid": "6821b3a9c885ba48ea773b77"
+    }
+  ],
+  "__v": 10,
+  "updatedAt": {
+    "$date": "2025-05-12T08:39:05.737Z"
+  }
+}]

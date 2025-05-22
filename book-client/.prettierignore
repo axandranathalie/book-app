@@ -1,0 +1,10 @@
+# Build output
+dist/
+dist-ssr/
+
+# Dependency directories
+node_modules/
+
+# Test output
+cypress/screenshots/
+cypress/videos/
