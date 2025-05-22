@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import NavLink from '@/components/global/NavLink.vue'
 import LogoutButton from '@/components/global/LogoutButton.vue'
-import { useLogout } from '@/composables/useLogout'
+import { useLogout } from '@/composables/UseLogout'
 
 const { handleLogout, loading } = useLogout()
 </script>
